@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;}
+
+body{
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#thumbnail{
+	width: 400px;
+	min-height: 114px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #000;
+}
+
+#thumbnail img{
+	float: left;
+	padding: 5px;
+	border: 1px solid #000;
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+}
+
+#thumbnail h1{
+	font-size: 1em;
+	width: 395px;
+	padding: 5px;
+}
