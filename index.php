@@ -21,7 +21,7 @@
 		$(document).on("click", "#get_data", function(){
 			var turl = $("#url_field").val();
 
-			$.post("http://localhost/testing/get_url_data.php", {url: turl}, function(data, status){
+			$.post("get_url_data.php", {url: turl}, function(data, status){
 				if(status == "success") {
 					var obj = JSON.parse(data);
 					$("#thumbnail").html('<img src="'+obj.image+'" alt=""><h1>'+obj.title+'</h1><p>'+obj.description+'</p>');
